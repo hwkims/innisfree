@@ -1,0 +1,238 @@
+/*위치표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 60px;
+    line-height: 60px;
+    /* background: yellow; */
+    margin: 0 auto;
+
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+#location_bar img {
+    vertical-align: middle;
+}
+
+#location_bar p {
+    padding-left: 20px;
+}
+
+/*event_section1*/
+#event_section1 {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#event_section1 h2 {
+    padding-top: 30px;
+
+    color: #111;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+#event_section1 div.imgbanner {
+    width: 1280px;
+    height: 435px;
+    background: url(../images/event_main_bg.jpg);
+    margin: 30px auto;
+    text-align: left;
+}
+
+#event_section1 div.imgbanner p.txt1 {
+    padding: 70px 0 0 130px;
+    color: #fa7266;
+    font-size: 33px;
+    letter-spacing: -1px;
+    font-family: 'BMDOHYEON';
+    font-weight: bold;
+}
+
+#event_section1 div.imgbanner p.txt1 span {
+    color: #085dae;
+}
+
+#event_section1 div.imgbanner p.txt2 {
+    padding: 10px 0 0 130px;
+    color: #313f5a;
+    font-size: 60px;
+    letter-spacing: -3px;
+    font-family: 'BMDOHYEON';
+    font-weight: bold;
+}
+
+#event_section1 div.imgbanner p.txt3 {
+    background: #176dc2;
+    display: inline-block;
+
+    color: #fdf58a;
+    font-size: 60px;
+    letter-spacing: -3px;
+    font-family: 'BMDOHYEON';
+
+    padding: 10px 10px 5px;
+    border-radius: 5px;
+
+    margin: 5px 0 0 130px;
+}
+
+#event_section1 div.imgbanner p.txt4 {
+    padding: 20px 0 0 200px;
+    color: #666;
+    font-size: 24px;
+    letter-spacing: -1px;
+
+}
+
+#event_section1 div.imgbanner p.txt4 span {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 2px;
+    height: 22px;
+    background: #176dc2;
+    margin: 0 10px;
+}
+
+
+/*이벤트 배너2개*/
+#event_section2 {
+    width: 1280px;
+    height: 200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#event_section2 ul li {
+    width: 620px;
+    height: 200px;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#event_section2 ul li:nth-child(1) {
+    background: url(../images/event_banner1_bg.jpg);
+}
+
+#event_section2 ul li:nth-child(2) {
+    margin-left: 34px;
+    background: url(../images/event_banner2_bg.jpg);
+}
+
+#event_section2 ul li h2 {
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 3px 10px;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+
+    margin: 30px 0 0 30px;
+}
+
+#event_section2 ul li h3 {
+    padding: 20px 0 0 30px;
+    font-size: 20px;
+    letter-spacing: -2px;
+    line-height: 1.2;
+}
+
+#event_section2 ul li h3 span {
+    font-weight: normal;
+}
+
+#event_section2 ul li p.txt {
+    padding: 20px 0 0 30px;
+    color: #666;
+    letter-spacing: -1px;
+}
+
+
+/*이벤트 하단 배너*/
+#event_section3 {
+    width: 1280px;
+    height: 300px;
+    /* background: cyan; */
+    margin: 60px auto;
+    text-align: center;
+}
+
+#event_section3 ul li {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 0 5px;
+    text-align: left;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#event_section3 ul li p.txt1 {
+    padding-top: 10px;
+
+    color: #333;
+    letter-spacing: -1px;
+}
+
+#event_section3 ul li p.txt2 {
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 2px 5px;
+
+    border-radius: 30px;
+    font-size: 14px;
+    letter-spacing: -1px;
+
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+}
+
+#event_section3 ul li p.box {
+    width: 300px;
+    height: 165px;
+    text-align: center;
+    line-height: 165px;
+    background: rgba(0, 0, 0, 0.6);
+
+    position: absolute;
+    left: 0;
+    top: -165px;
+
+    cursor: pointer;
+}
+
+#event_section3 ul li:hover p.box {
+    top: 0;
+    transition: 1s;
+}
+#event_section3 ul li img{
+width: 300px;
+}
+#event_section3 ul li:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#event_section3 ul li p.box span {
+    color: #fff;
+    letter-spacing: -1px;
+    border: 1px solid #fff;
+    padding: 2px 5px;
+
+}

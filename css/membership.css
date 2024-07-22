@@ -1,0 +1,105 @@
+/*위치표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 60px;
+    line-height: 60px;
+    /* background: yellow; */
+    margin: 0 auto;
+
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+#location_bar img {
+    vertical-align: middle;
+}
+
+#location_bar p {
+    padding-left: 20px;
+}
+
+/*membership*/
+#membership {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#membership h2 {
+    padding-top: 30px;
+
+    color: #111;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+#membership p {
+    margin-top: 20px;
+
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+#membership table {
+    border-collapse: collapse;
+    margin: 60px auto;
+
+}
+
+#membership table td {
+    border: 1px solid #ddd;
+
+    width: 150px;
+    height: 80px;
+    color: #555;
+    letter-spacing: -1px;
+}
+
+#membership table td.a {
+    background: #fafafa;
+    width: 210px;
+    font-weight: bold;
+}
+
+#membership table tr.title td:nth-child(2) {
+    background: #055321;
+    color: #fff;
+}
+
+#membership table tr.title td:nth-child(3) {
+    background: #5c9641;
+    color: #fff;
+}
+
+#membership table tr.title td:nth-child(4) {
+    background: #69b06c;
+    color: #fff;
+}
+
+#membership table tr.title td:nth-child(5) {
+    background: #b6d4b0;
+    color: #155022;
+    font-weight: bold;
+}
+
+#membership table tr.two td:nth-child(2) {
+    color: #155022;
+    font-weight: bold;
+}
+
+#membership table tr.two td:nth-child(3) span {
+    color: #577448;
+}
+
+#membership table tr.two td:nth-child(4) span {
+    color: #69b06c;
+}
+
+#membership p.banner {
+    width: 800px;
+    height: 1000px;
+    margin: 50px auto;
+}

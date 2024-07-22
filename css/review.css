@@ -1,0 +1,326 @@
+/*위치표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 60px;
+    line-height: 60px;
+    /* background: yellow; */
+    margin: 0 auto;
+
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+#location_bar img {
+    vertical-align: middle;
+}
+
+#location_bar p {
+    padding-left: 20px;
+}
+
+/*리뷰 영역*/
+#review_main {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#review_main h2 {
+    padding-top: 30px;
+
+    color: #111;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+#review_main ul {
+    width: 1230px;
+    height: 60px;
+    margin: 50px auto;
+}
+
+#review_main ul li {
+    float: left;
+}
+
+#review_main ul li a {
+    display: block;
+    width: 410px;
+    height: 60px;
+    border: 1px solid #ccc;
+    line-height: 60px;
+
+    color: #666;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#review_main ul li:nth-child(2) a,
+#review_main ul li:nth-child(3) a {
+    border-left: 0;
+}
+
+#review_main ul li a:hover {
+    background: #0f4138;
+    color: #fff;
+}
+
+#review_main h4 {
+    padding: 10px 0;
+    font-size: 24px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+#review_main ol {
+    width: 610px;
+    height: 340px;
+    border: 1px solid #acacac;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 10px;
+}
+
+#review_main ol li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#review_main ol li:nth-child(1) {
+    width: 150px;
+    height: 210px;
+    /* background: cyan; */
+}
+
+#review_main ol li:nth-child(2) {
+    width: 450px;
+    height: 210px;
+    /* background: orange; */
+    text-align: left;
+}
+
+#review_main ol li:nth-child(2) p.txt1 {
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#review_main ol li:nth-child(2) p.txt1 img {
+    vertical-align: middle;
+}
+
+#review_main ol li:nth-child(2) p.txt2 {
+    padding: 10px 0 0 10px;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+#review_main ol p.line {
+    width: 550px;
+    height: 1px;
+    background: #acacac;
+    margin: 20px auto;
+}
+
+#review_main ol li.down {
+    width: 610px;
+    height: 89px;
+    text-align: left;
+    /* background: cyan; */
+}
+
+#review_main ol li.down p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#review_main ol li.down p.img1 {
+    margin-left: 40px;
+}
+
+#review_main ol li.down p.txt {
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+#review_main ol li.down p.txt b {
+    font-size: 24px;
+}
+
+#review_main ol li.down p.txt b span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#review_main ol li.down p.img2 {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+/*리뷰 영역*/
+#my_review {
+    width: 1280px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+#my_review h2 {
+    padding: 10px 0 0 30px;
+    font-size: 24px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+#my_review div.login {
+    width: 1230px;
+    height: 200px;
+    background: #f3f3f3;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#my_review div.login h3 {
+    padding-top: 40px;
+    color: #333;
+    letter-spacing: -1px;
+}
+
+#my_review div.login h3 img {
+    vertical-align: middle;
+}
+
+#my_review div.login p.btn a {
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: #000;
+
+    color: #fff;
+    line-height: 40px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    border-radius: 30px;
+
+    margin: 30px auto;
+}
+
+#my_review p.review {
+    width: 1230px;
+    height: 75px;
+    background: #0e4035;
+    line-height: 75px;
+
+    margin: 80px auto 0;
+
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+    cursor: pointer;
+}
+
+/*리뷰 하단*/
+#review_down {
+    width: 1280px;
+    /* background: pink; */
+    margin: 50px auto;
+    text-align: center;
+}
+
+#review_down p.search {
+    text-align: left;
+    padding: 20px 0 0 20px;
+}
+
+#review_down p.search input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #acacac;
+
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#review_down p.search i {
+    width: 40px;
+    height: 40px;
+    background: #acacac;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -6px;
+    cursor: pointer;
+}
+
+#review_down ul li {
+    width: 240px;
+    height: 440px;
+    border: 1px solid #acacac;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 30px;
+    text-align: left;
+}
+
+#review_down ul li p.txt1 {
+    padding: 10px;
+
+    color: #333;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+#review_down ul li p.txt2 {
+    padding: 10px;
+
+    color: #666;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#review_down ul li p.line {
+    width: 240px;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+#review_down ul li p.txt3 {
+    padding: 10px;
+
+    color: #333;
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#review_down ul li p.txt3 img {
+    vertical-align: middle;
+}
+
+#review_down ul li p.txt4 {
+    padding: 10px;
+
+    color: #666;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+#review_down ul li p.txt4 span {
+    margin-left: 170px;
+    color: #999;
+    cursor: pointer;
+}

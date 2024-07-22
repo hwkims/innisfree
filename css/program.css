@@ -1,0 +1,118 @@
+/*위치표시줄*/
+#location_bar {
+    width: 1280px;
+    height: 60px;
+    line-height: 60px;
+    /* background: yellow; */
+    margin: 0 auto;
+
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+#location_bar img {
+    vertical-align: middle;
+}
+
+#location_bar p {
+    padding-left: 20px;
+}
+
+/*event_section1*/
+#program_main {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#program_main h2 {
+    padding-top: 30px;
+
+    color: #111;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+#program_main p {
+    padding-top: 20px;
+
+    color: #666;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+#program_main ul li {
+    width: 600px; height: 840px;
+    background: #e7f0df;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 50px 15px;
+}
+
+#program_main ul li p {
+    padding-top: 20px;
+
+    color:#666; letter-spacing: -1px;
+}
+
+#program_main ul li p.txt1 {
+    font-family: 'Nanum Myeongjo';
+    color:#333; font-size: 26px;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    margin-top: -30px;
+}
+
+#program_main ul li p.txt2 {
+    color:#024136;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -8px;
+}
+
+#program_main ul li p.txt3 {
+    color:#555;
+    font-size: 14px;    
+    letter-spacing: -1px;
+    line-height: 1.8;
+}
+
+#program_main ul li p.btn a {
+    display: block;
+    width: 220px; height: 45px;
+    line-height: 45px;
+    background: #024136;
+    color:#fff; letter-spacing: -1px;
+
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+#program_main ul li:nth-child(2) {
+    background: #f4e9cb;
+}
+
+#program_main ul li:nth-child(2) p.txt1 {
+    font-family: 'Lucida Calligraphy';
+    color:#723c20;
+    font-size: 30px; letter-spacing: -2px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+#program_main ul li:nth-child(2) p.btn a {
+    background: #723c20;
+}
+
+#program_main ul p.img2:hover img {
+    transform: rotateY(360deg);
+    transition: 1s;
+    cursor: pointer;
+}
